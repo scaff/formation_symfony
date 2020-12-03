@@ -4,3 +4,7 @@
 #     # je précise le controller (en spécifiant son namespace) ainsi que la méthode à exectuer
 #     controller: App\Controller\MonPremierController::test
 #     # controller: namespace\NomDeClasse::nomDeMethode
+
+welcome:
+    path: /welcome
+    controller: App\Controller\WelcomeController::welcome
