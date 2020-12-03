@@ -35,4 +35,15 @@ class MonPremierController extends AbstractController
           'somme' => $somme
         ]);
     }
+
+    /**
+     * @Route("/nombre_choisi/{nombreChoisi}")
+     */
+    public function nombreChoisi($nombreChoisi) {
+      // appel à la base de donnée pour trouver l'élément dont l'id est $nombreChoisi
+
+      return $this->render('nombreChoisi.html.twig', [
+        'nombre' => $nombreChoisi
+      ]);
+    }
 }
