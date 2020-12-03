@@ -1,3 +1,6 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+# app_lucky_number:
+#     # j'indique le chemin par lequel j'ai envie d'accéder à ma route
+#     path: /lucky/number
+#     # je précise le controller (en spécifiant son namespace) ainsi que la méthode à exectuer
+#     controller: App\Controller\MonPremierController::test
+#     # controller: namespace\NomDeClasse::nomDeMethode
